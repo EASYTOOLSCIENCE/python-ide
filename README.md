@@ -8,7 +8,8 @@ Python version 3.10
 
 <summary>Button.jsx</summary>
 
-```<button type="submit" 
+```
+<button type="submit" 
   className={`
           px-4 py-2 rounded-full 
           flex items-center gap-2 

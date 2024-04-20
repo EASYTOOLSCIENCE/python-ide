@@ -7,8 +7,8 @@ Python version 3.10
 <details>
 
 <summary>Button.jsx</summary>
-```
-<button type="submit" 
+
+```<button type="submit" 
   className={`
           px-4 py-2 rounded-full 
           flex items-center gap-2 
@@ -20,6 +20,6 @@ Python version 3.10
       `}
 >
   Submit
-</button>
-``` 
+</button>```
+ 
 </details>

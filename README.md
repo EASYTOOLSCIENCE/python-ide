@@ -6,7 +6,7 @@ Python version 3.10
 
 <details>
 
-<summary>Button.jsx</summary>
+<summary>Snippets</summary>
 
 ```
 <button type="submit" 
@@ -22,5 +22,67 @@ Python version 3.10
 >
   Submit
 </button>
+``` 
+</details>
+
+<details>
+
+<summary>style.css</summary>
+
+```
+.editor {
+    display: inline-flex;
+    gap: 10px;
+    font-family: monospace;
+    line-height: 21px;
+    background: #1e1e1e;
+    border-radius: 2px;
+    padding: 20px 10px;
+    width: 100%;
+  }
+
+  .line-numbers {
+    width: 20px;
+    text-align: right;
+  }
+
+  .line-numbers span {
+    counter-increment:  linenumber;
+  }
+
+  .line-numbers span::before {
+    content: counter(linenumber);
+    display: block;
+    color: #506882;
+  }
+
+  textarea {
+    line-height: 21px;
+    overflow-y: hidden;
+    padding: 0;
+    border: 0;
+    background: #282a3a;
+    color: #FFF;
+    width: 100%;
+    min-height: 50vh;
+    outline: none;
+    resize: none;
+  }
+``` 
+</details>
+
+
+<summary>serveur_test.py</summary>
+
+```
+import pydoodle
+
+PYDOODLE_CLIENT_ID=<your_client_id>
+PYDOODLE_CLIENT_SECRET=<your_client_secret>
+
+c = pydoodle.Compiler(clientId=PYDOODLE_CLIENT_ID, clientSecret=PYDOODLE_CLIENT_SECRET)
+result = c.execute(script="print('Hello World')", language="python3")
+usage = c.usage()
+print(usage, result.output, sep='\n')
 ``` 
 </details>

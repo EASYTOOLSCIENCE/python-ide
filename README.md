@@ -7,7 +7,7 @@ Python version 3.10
 <details>
 
 <summary>Button.jsx</summary>
-  
+```
 <button type="submit" 
   className={`
           px-4 py-2 rounded-full 
@@ -21,5 +21,5 @@ Python version 3.10
 >
   Submit
 </button>
-  
+``` 
 </details>

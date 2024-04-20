@@ -6,7 +6,7 @@ Python version 3.10
 
 <details>
 
-<summary>Snippets</summary>
+<summary>Button.jsx</summary>
 
 ```
 <button type="submit" 
@@ -72,6 +72,7 @@ Python version 3.10
 </details>
 
 
+<details>
 <summary>serveur_test.py</summary>
 
 ```

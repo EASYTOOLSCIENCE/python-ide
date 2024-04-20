@@ -6,9 +6,9 @@ Python version 3.10
 
 <details>
 
-<summary>Button</summary>
+<summary>Button.jsx</summary>
 
-### Button.jsx
+
 
 <button type="submit" 
   className={`
